@@ -1,10 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import NavList from "./components/nav/NavList.vue";
+import MenuMenu from "./components/menu/MenuMenu.vue";
 </script>
 
 <template>
-  <div class="min-h-[90vh] max-w-[450px] justify-stretch">
+  <div class="min-h-[90vh] justify-stretch">
     <div class="">
       <header class="flex">
         <div class="w-full">
@@ -13,17 +14,24 @@ import NavList from "./components/nav/NavList.vue";
       </header>
 
       <RouterView />
+      <div class="w-full h-16"></div>
+      <footer>
+        <MenuMenu></MenuMenu>
+      </footer>
     </div>
   </div>
 </template>
 
-<style scoped>
+<style>
+#app {
+  padding: 1em 0.5rem 0.5rem 0;
+}
 /* debug */
-* {
+/* * {
   box-sizing: border-box;
   outline: solid green;
   background: rgba(0, 128, 0, 0.15);
-}
+} */
 /* end debug */
 header {
   line-height: 1.5;

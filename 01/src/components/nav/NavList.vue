@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full flex align-center justify-between px-4">
+  <nav class="w-full d flex align-center justify-between pb-2">
     <RouterLink to="/">
       <img
         alt="Vue logo"
@@ -9,6 +9,7 @@
         height="40"
     /></RouterLink>
     <RouterLink to="/about">About</RouterLink>
+    <RouterLink to="/check-in">Check-in</RouterLink>
     <RouterLink to="/menu">Menu</RouterLink>
   </nav>
 </template>

@@ -1,7 +1,12 @@
+<script>
+import { useInfoStore } from "@/stores/info";
+const { about } = useInfoStore();
+</script>
 <template>
-  <div class="about">
+  <main class="p-4">
     <h1>This is an about page</h1>
-  </div>
+    <p>{{ about }}</p>
+  </main>
 </template>
 
 <style>

@@ -4,8 +4,7 @@ import MenuMenu from "../components/menu/MenuMenu.vue";
 </script>
 
 <template>
-  <main class="">
+  <main class="p-4">
     <MenuList></MenuList>
-    <MenuMenu></MenuMenu>
   </main>
 </template>
