@@ -22,7 +22,7 @@ import NavList from "./components/nav/NavList.vue";
 * {
   box-sizing: border-box;
   outline: solid green;
-  background: rgba(0, 128, 0, 0.16);
+  background: rgba(0, 128, 0, 0.15);
 }
 /* end debug */
 header {
